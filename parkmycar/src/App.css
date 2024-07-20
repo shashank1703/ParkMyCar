@@ -1,0 +1,132 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.header .nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header .nav ul li {
+  display: inline;
+}
+
+.header .nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-banner {
+  background: url('/path/to/banner-image.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  color: white;
+}
+
+.main-banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.main-banner input {
+  padding: 10px;
+  font-size: 1em;
+  width: 300px;
+}
+
+.problem-statement {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.problem-statement h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.problem-statement p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.features {
+  padding: 50px 20px;
+}
+
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.features .feature-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.features .feature-item {
+  max-width: 200px;
+}
+
+.testimonials {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonials .testimonial-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.call-to-action {
+  padding: 50px 20px;
+}
+
+.call-to-action h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.call-to-action button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .contact-info,
+.footer .social-media,
+.footer .legal {
+  max-width: 200px;
+}
